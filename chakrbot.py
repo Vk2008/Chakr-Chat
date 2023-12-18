@@ -92,9 +92,9 @@ def chakr_chat(user_input):
             return 'Thank You for being with Chakr-Chat. Be Safe!'
 
 
-def main(user_input):
+def main():
     while True:
-        #user_input = input('You: ')
+        user_input = input('You: ')
 
         response = chakr_chat(user_input)
         print('Chakr-Chat:', response)
